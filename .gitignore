@@ -1,0 +1,24 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+apps/web/node_modules/
+apps/web/dist/
+apps/web/.vite/
+.playwright-cli/
+
+data/app.db
+data/*.db-shm
+data/*.db-wal
+data/projects/*
+!data/projects/.gitkeep
+
+# Local runtime artifacts
+.local-run/
+output/
+assets/reference_styles/

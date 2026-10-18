@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.ai-director/schemas/director-project-state.json",
+  "title": "DirectorProjectState",
+  "type": "object",
+  "required": ["project_id", "canon", "continuity_state", "accepted_take_ids"],
+  "properties": {
+    "project_id": { "type": "string" },
+    "current_scene_id": { "type": ["string", "null"] },
+    "current_video_unit_id": { "type": ["string", "null"] },
+    "canon": { "type": "object" },
+    "character_state": { "type": "object" },
+    "environment_state": { "type": "object" },
+    "object_state": { "type": "object" },
+    "continuity_state": { "type": "object" },
+    "accepted_take_ids": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,49 @@
+# Seedance Skill OS 融合增强版升级说明与核查
+
+生成时间：2026-07-18 07:50:26
+
+## 基础信息
+
+- 基础主文件：剧本视觉化创作系统_V7.0_Plus_R1_执行优化版_统一图片风格锁定版.txt
+- 基础字符数：10273
+- 新版字符数：21364
+- 新版 SHA-256 前16位：241e164a0278dca1
+
+## 新增核心能力
+
+- DIRECTING-ENGINE：场景功能、转折、POV、权力关系、潜台词
+- DIRECTORIAL-VOICE：项目级导演声音与长线变化
+- EVENT-DENSITY：已发生 / 当前 / 后续剧情防火墙
+- ALLOCATION-MODEL：身份、动作、场景密度预算
+- REFERENCE-ROLE-MAP：参考资产职责和禁止继承
+- PROMPT-COMPILER：VP-PRECISION-18 编译为 vp_prompt_copy
+- STATEFUL-SEQUENCE：计划状态、实际状态、canon
+- CONTINUATION-HANDOFF：真实成片与尾帧接续
+- TAKE-REVIEW：保留、后期修复、局部编辑、重抽、重写
+- SURFACE-PROFILE：Provider专项能力边界
+- SEEDANCE-SKILL-ROUTER：按任务渐进加载专项能力
+
+## 保留确认
+
+- UCODE-9：保留
+- FLOW-NAV：保留
+- VP-PRECISION-18：完整保留
+- DIRECTOR-TECH PLUS：保留
+- UNIFIED-SB：保留
+- IMAGE-STYLE-LOCK：保留
+- 故事板图1、图2唯一风格：保留
+- 人物角色卡图3、图4唯一风格：保留
+- Seedance 15秒：保留
+- Video Unit 1:1绑定：保留
+- 轴线连续性：保留
+- 真实生成确认：保留
+- Mock：未引入
+
+## 结构标记核查
+
+缺失标记：无
+
+## 第三方许可
+
+融合层参考并适配 Seedance 2.0 Skill OS v6.6.0（MIT）。
+在工作台实际引入上游源码、Schema或脚本时，必须保留原版权声明和MIT许可证。
